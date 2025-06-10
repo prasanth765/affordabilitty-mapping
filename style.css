@@ -627,10 +627,8 @@ td.table-actions-column { min-width: 120px; } /* Add specific min-width for tabl
 
 }
 
-/* Specific for login.html page styling to override some body defaults */
-body[style*="align-items: center"][style*="justify-content: center"] {
-     /* Nothing needed here usually, flex properties handled inline */
-}
+ 
+ 
 body[style*="align-items: center"][style*="justify-content: center"] h1 {
     color: var(--text-light-primary);
     text-align: center;
